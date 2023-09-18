@@ -1,0 +1,2 @@
+Devices:
+  cl_khr_byte_addressable_store cl_khr_global_int32_base_atomics   cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics   cl_khr_local_int32_extended_atomics cl_khr_3d_image_writes cl_khr_command_buffer cl_khr_spir cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_fp64(OpenCL 1.2 PoCL HSTR: pthread-x86_64-pc-linux-gnu-icelake-server)
