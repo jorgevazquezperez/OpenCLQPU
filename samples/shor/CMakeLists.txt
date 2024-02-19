@@ -5,8 +5,8 @@ find_package(OpenCL REQUIRED)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(POCL_INCLUDES /mnt/netapp1/Optcesga_FT2_RHEL7/2020/software/Core/pocl/3.1/include)
-set(SRC_INCLUDES /home/usc/ec/jvp/Proyectos/OpenQCL/src)
+set(POCL_INCLUDES ADD_INCLUDE_POCL)
+set(SRC_INCLUDES ADD_SOURCE_DIRECTORY)
 set(HEADERS ${POCL_INCLUDES} ${KMA_INCLUDES})
 
 add_definitions("-DCL_HPP_TARGET_OPENCL_VERSION=210")
